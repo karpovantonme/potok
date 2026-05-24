@@ -5,6 +5,19 @@
     <link>https://raw.githubusercontent.com/karpovantonme/potok-releases/main/appcast.xml</link>
     <description>Поток — autoupdate feed</description>
     <language>ru</language>
-    <!-- Releases are added as <item> entries below by `make release`. -->
+
+    <item>
+      <title>V1.0.3</title>
+      <pubDate>Sun, 24 May 2026 23:35:43 +0000</pubDate>
+      <sparkle:version>1.0.3</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[Усиленная чувствительность и увеличенная высота волны в Pill-оверлее. Тестовая сборка для проверки Sparkle-автообновления.]]></description>
+      <enclosure
+        url="https://github.com/karpovantonme/potok-releases/releases/download/v1.0.3/Potok-1.0.3.dmg"
+        length="11234188"
+        type="application/octet-stream"
+        sparkle:edSignature="duQ5InB8caXXfWgkYutFLhcVzd7XXT/5yi5qBrYHlsMuEJoq0PO4b4u48wP4ofmWzeHA+z3wcX7ZwBKqOIyoBQ==" />
+    </item>
   </channel>
 </rss>
