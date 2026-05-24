@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>Поток</title>
+    <link>https://raw.githubusercontent.com/karpovantonme/potok-releases/main/appcast.xml</link>
+    <description>Поток — autoupdate feed</description>
+    <language>ru</language>
+    <!-- Releases are added as <item> entries below by `make release`. -->
+  </channel>
+</rss>
