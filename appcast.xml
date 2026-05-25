@@ -7,6 +7,20 @@
     <language>ru</language>
 
     <item>
+      <title>V1.1.0.1</title>
+      <pubDate>Mon, 25 May 2026 13:38:18 +0000</pubDate>
+      <sparkle:version>1.1.0.1</sparkle:version>
+      <sparkle:shortVersionString>1.1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p><strong>Главное окно.</strong> Единый дом для разделов Поток · История · Настройки · О приложении (4-tab NavigationSplitView). Хоткеи ⌘1 / ⌘Y / ⌘,. Кликабельные feature-карточки в разделе «Поток» прыгают в нужный sub-tab Настроек. Старые отдельные окна Настроек и Истории убраны.</p><p><strong>Фикс «Свой словарь».</strong> Пре-существующий движок предложений тянул мусор из всего фокусированного текстового элемента (Cursor, Notion, Telegram) и выдавал бессмысленные пары вроде «данных → assign». Добавлены жёсткие гейты + настоящий LCS-diff. Загрязнённые кандидаты разово очищаются на первом запуске.</p><p><strong>Dev-иконка</strong> перерисована: V2-P3 mark + DEV-лента (старый FreeFlow-молот удалён).</p>]]></description>
+      <enclosure
+        url="https://github.com/karpovantonme/potok-releases/releases/download/v1.1.0.1/Potok-1.1.0.1.dmg"
+        length="11383092"
+        type="application/octet-stream"
+        sparkle:edSignature="yVLb550GGNPYU9tNKZM4CCoVTCb0MBKs80mycoDlgluyS9ZEJEBpU+6f490ksyGc3n+VPd3YKveJEEs5bGMYAg==" />
+    </item>
+
+    <item>
       <title>V1.0.7</title>
       <pubDate>Mon, 25 May 2026 00:45:00 +0000</pubDate>
       <sparkle:version>1.0.7</sparkle:version>
