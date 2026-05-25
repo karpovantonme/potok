@@ -7,12 +7,26 @@
     <language>ru</language>
 
     <item>
+      <title>V1.0.7</title>
+      <pubDate>Mon, 25 May 2026 00:45:00 +0000</pubDate>
+      <sparkle:version>1.0.7</sparkle:version>
+      <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[Финальная правка волны: плавное течение вместо тряски (phase rate уполовинен, соседние бары более синхронны), пик амплитуды ≤ 50% высоты pill, ширина recording-пилюли уменьшена на ~16%.]]></description>
+      <enclosure
+        url="https://github.com/karpovantonme/potok-releases/releases/download/v1.0.7/Potok-1.0.7.dmg"
+        length="11243134"
+        type="application/octet-stream"
+        sparkle:edSignature="vM7/WByu/HUKdj0336bEqCqShxeWW8miCLYHEwjE1m0pRWGaIbAqbQgGRkGceWiZyWxg1pJY+S3nJci8NlQTDg==" />
+    </item>
+
+    <item>
       <title>V1.0.6</title>
       <pubDate>Mon, 25 May 2026 00:30:00 +0000</pubDate>
       <sparkle:version>1.0.6</sparkle:version>
       <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[Доводка волны: симметричная двусторонняя «волна от центра» (короткие бары больше не прижимаются к низу), gain и кривая откатились ближе к V1.0.3, шум-гейт поднят до 0.010 чтобы шум микрофона не двигал бары при тишине.]]></description>
+      <description><![CDATA[Доводка волны: симметричная «волна от центра» (короткие бары больше не прижимаются к низу), gain и кривая откатились ближе к V1.0.3, шум-гейт поднят до 0.010.]]></description>
       <enclosure
         url="https://github.com/karpovantonme/potok-releases/releases/download/v1.0.6/Potok-1.0.6.dmg"
         length="11243075"
@@ -26,7 +40,7 @@
       <sparkle:version>1.0.5</sparkle:version>
       <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[Доводка волны: компромисс между V1.0.3 (мало) и V1.0.4 (перебор). Мягкий noise-gate глушит дребезг от ambient noise при тишине, gain и кривая умерены.]]></description>
+      <description><![CDATA[Доводка волны: компромисс между V1.0.3 (мало) и V1.0.4 (перебор).]]></description>
       <enclosure
         url="https://github.com/karpovantonme/potok-releases/releases/download/v1.0.5/Potok-1.0.5.dmg"
         length="11243030"
@@ -40,7 +54,7 @@
       <sparkle:version>1.0.4</sparkle:version>
       <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[Доводка по живому тесту: тёмная подложка-шторка за крыльями notch-варианта, аудиоволна выровнена и усилена ~3×, индикатор переживает смену стиля оверлея, онбординг-шаг хоткея реально назначает выбранную комбинацию.]]></description>
+      <description><![CDATA[Promt-27: тёмная подложка-шторка за крыльями notch, аудиоволна выровнена и усилена, индикатор переживает смену стиля, онбординг-шаг хоткея реально назначает выбранную комбинацию.]]></description>
       <enclosure
         url="https://github.com/karpovantonme/potok-releases/releases/download/v1.0.4/Potok-1.0.4.dmg"
         length="11242561"
@@ -54,7 +68,7 @@
       <sparkle:version>1.0.3</sparkle:version>
       <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[Усиленная чувствительность и увеличенная высота волны в Pill-оверлее. Тестовая сборка для проверки Sparkle-автообновления.]]></description>
+      <description><![CDATA[Усиленная чувствительность и увеличенная высота волны в Pill-оверлее. Первая Sparkle-проверка.]]></description>
       <enclosure
         url="https://github.com/karpovantonme/potok-releases/releases/download/v1.0.3/Potok-1.0.3.dmg"
         length="11234188"
