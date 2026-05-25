@@ -7,6 +7,20 @@
     <language>ru</language>
 
     <item>
+      <title>V1.1.0.2</title>
+      <pubDate>Mon, 25 May 2026 14:20:59 +0000</pubDate>
+      <sparkle:version>1.1.0.2</sparkle:version>
+      <sparkle:shortVersionString>1.1.0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p><strong>Помощь и поддержка — в приложении.</strong> Карточка «Помощь и поддержка» в разделе «Поток» теперь открывает FAQ-модалку с четырьмя секциями (Хоткеи · API-ключ · Вставка · Приватность) и контактами внизу. Раньше карточка просто открывала Telegram — теперь Telegram достаётся одним кликом изнутри ответа.</p><p><strong>Bead-оверлей (минимальная бусинка) — много мелкой шлифовки.</strong> Бары стали реактивны к голосу (как в Pill), Vibe-режим визуально отличается (тёплый фон + золотистая обводка), «готово» в цвете применённого уровня очистки. Пульсация точки — мягкое «дыхание» вместо рывков. Смена фаз — пружинный crossfade.</p>]]></description>
+      <enclosure
+        url="https://github.com/karpovantonme/potok-releases/releases/download/v1.1.0.2/Potok-1.1.0.2.dmg"
+        length="11427939"
+        type="application/octet-stream"
+        sparkle:edSignature="5hrdLCSasnsufQVFzsmfGw4vg+DgFpGTsTxXrLVMNq/v8j+IBPvzKS71/YfHNIlkpwiiHVZzBfLh8LTKoQRbCA==" />
+    </item>
+
+    <item>
       <title>V1.1.0.1</title>
       <pubDate>Mon, 25 May 2026 13:38:18 +0000</pubDate>
       <sparkle:version>1.1.0.1</sparkle:version>
