@@ -7,6 +7,20 @@
     <language>ru</language>
 
     <item>
+      <title>V1.2.1.0 — P33 polish bundle</title>
+      <pubDate>Wed, 27 May 2026 02:55:00 +0000</pubDate>
+      <sparkle:version>1.2.1.0</sparkle:version>
+      <sparkle:shortVersionString>1.2.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p><strong>Полировочный набор поверх V1.2.0.0 — пять независимых пунктов.</strong></p><p><strong>A.</strong> «Gemini 2.5 Flash» → «Gemini 3.5 Flash» во всей пользовательской копии (RU+EN). Идентификатор в HTTP-запросе остался gemini-2.5-flash — Google ещё не выпустил 3.5, менять боевой параметр сломало бы интеграцию.</p><p><strong>B.</strong> Тумблер «Хвосты-фантомы» в Настройки → Очистка. По умолчанию включён. Whisper обучен на YouTube и в конец тихой диктовки иногда дописывает «Спасибо за просмотр» / «Субтитры подготовил DimaTorzok» — Поток их вырезает. Тумблер позволяет фильтр выключить.</p><p><strong>C.</strong> Свой брендовый диалог при смене языка интерфейса вместо системного .alert — Spectral-заголовок, бордо-акцент, стандартные кнопки Поток.</p><p><strong>D.</strong> Единый wordmark во всех брендовых заголовках: Spectral SemiBold + золотая курсивная последняя буква. Работает одинаково для «Поток» (золотая «к») и «Potok» (золотая «k»).</p><p><strong>E.</strong> В About убран Лиссабон. «Сделано в Москве с любовью · 2026» / «Made with care in Moscow · 2026».</p>]]></description>
+      <enclosure
+        url="https://github.com/karpovantonme/potok-releases/releases/download/v1.2.1.0/Potok-1.2.1.0.dmg"
+        length="11534440"
+        type="application/octet-stream"
+        sparkle:edSignature="NHbhr/kCqRe46mmpFj3kX4m5jiEYgy7wFFoZKGGJM7IrX1R+MLuLOtc+uloXTRkn4adLB4UNDKKPdIiX7jX1Cw==" />
+    </item>
+
+    <item>
       <title>V1.2.0.0 (build 1.2.0.1) — EN polish</title>
       <pubDate>Tue, 26 May 2026 16:02:38 +0000</pubDate>
       <sparkle:version>1.2.0.1</sparkle:version>
