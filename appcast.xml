@@ -7,6 +7,20 @@
     <language>ru</language>
 
     <item>
+      <title>V1.2.0.0</title>
+      <pubDate>Tue, 26 May 2026 01:28:34 +0000</pubDate>
+      <sparkle:version>1.2.0.0</sparkle:version>
+      <sparkle:shortVersionString>1.2.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p><strong>Полный ревамп онбординга.</strong> 6 семантических шагов с жёсткими гейтами: микрофон, универсальный доступ, ключ Groq, горячая клавиша, реальная тестовая диктовка. Шаг ввода ключа — чек-лист + поле с 4 состояниями (пусто / проверка / валиден / не подошёл) и валидацией через настоящий запрос к Groq /v1/models с debounce 600мс. Никакого фальшивого «Готово» — финальная кнопка активируется только когда диктовка реально прошла через конвейер.</p><p><strong>Фикс галлюцинаций Whisper на тишине.</strong> Длинные стрейчи тишины перед отправкой сжимаются (контигный регион ≥3с превращается в ~1с с буфером 0.5с по краям; речь не клипается). Tail-фильтр срезает «Субтитры сделал X», «Корректор Y» и подобные клише YouTube-субтитров если они появляются в самом конце транскрипта. Реальное mid-text «субтитры» в обычной речи не трогается.</p>]]></description>
+      <enclosure
+        url="https://github.com/karpovantonme/potok-releases/releases/download/v1.2.0.0/Potok-1.2.0.0.dmg"
+        length="11451386"
+        type="application/octet-stream"
+        sparkle:edSignature="wFC4xb5Wa+xB88NUN1k2iN1mW4JgsQVGaMM/EakKpeYCC45ql8s2we4l191bIkRdOV/Ti20Y3yMfUeYJSEiSAQ==" />
+    </item>
+
+    <item>
       <title>V1.1.0.2</title>
       <pubDate>Mon, 25 May 2026 14:20:59 +0000</pubDate>
       <sparkle:version>1.1.0.2</sparkle:version>
