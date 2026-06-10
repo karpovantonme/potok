@@ -7,6 +7,19 @@
     <language>ru</language>
 
     <item>
+      <title>V1.2.2.0 — audit fix bundle</title>
+      <pubDate>Wed, 10 Jun 2026 16:17:48 +0000</pubDate>
+      <sparkle:version>1.2.2.0</sparkle:version>
+      <sparkle:shortVersionString>1.2.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p><strong>Фикс-набор по сводному аудиту. Универсальная сборка (Apple Silicon + Intel), оптимизированный билд.</strong></p><p><strong>Надёжность ядра.</strong> Быстрый тап хоткея больше не оставляет микрофон включённым — гонка осиротевшего движка записи устранена, следующая диктовка всегда чистая. Ошибка диктовки (нет сети / сбой сервера / таймаут) теперь видна на любом стиле оверлея — уведомление с «Повторить». Длинные диктовки (10+ минут) больше не обрываются по таймауту передачи.</p><p><strong>Приватность.</strong> Тумблер «Сохранять историю» теперь действительно отключает запись истории, конвейера и аудио. «Очистить всю историю» очищает всё — историю, аудио, архивы и базу. Тексты диктовок больше не попадают в системный лог.</p><p><strong>Прочее.</strong> Открыты Сниппеты (убран бейдж «Скоро»). Очистка через Gemini переведена на 3.5 Flash. Исправлен конфликт failsafe-хоткея с Вайбом; корректное имя системного разрешения — «Универсальный доступ».</p>]]></description>
+      <enclosure
+        url="https://github.com/karpovantonme/potok-releases/releases/download/v1.2.2.0/Potok-1.2.2.0.dmg"
+        length="11925432"
+        type="application/octet-stream"
+        sparkle:edSignature="bkPgXg5g4d/2XThIwD86VoYsK4ibSYX2y3qAiBhSpVKc89KQ4iIhO3/mQow0mR2aRZU0JuXTSQyaSAEPbIHbBQ==" />
+    </item>
+    <item>
       <title>V1.2.1.0 — P33 polish bundle</title>
       <pubDate>Wed, 27 May 2026 02:55:00 +0000</pubDate>
       <sparkle:version>1.2.1.0</sparkle:version>
