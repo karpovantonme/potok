@@ -7,6 +7,20 @@
     <language>ru</language>
 
     <item>
+      <title>V1.3.0.0 — UX-пас и каркас локализации</title>
+      <pubDate>Thu, 11 Jun 2026 02:15:51 +0000</pubDate>
+      <sparkle:version>1.3.0.0</sparkle:version>
+      <sparkle:shortVersionString>1.3.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p><strong>UX-пас по итогам полного прогона + каркас многоязычности. Универсальная сборка (Apple Silicon + Intel).</strong></p><p><strong>Онбординг.</strong> На шаге ключа появился выход «Настроить позже» — мастер больше не стена: меню-бар работает сразу, баннер напоминает добавить ключ, повторно мастер не навязывается. Кастомная горячая клавиша с шага 5 больше не затирается при Back/Forward.</p><p><strong>Локализация.</strong> Полные RU/EN: меню приложения, уведомления, диалоги системных разрешений (TCC), брендовые модалки вместо системных алертов, ошибки конвейера. Даты следуют языку приложения, а не системы.</p><p><strong>Механика.</strong> Esc отменяет удерживаемую запись. Честные ошибки 401/403: «ключ отклонён сервером», а не «ключ не указан». Очень длинные диктовки не обрезаются молча — либо полный текст, либо raw с уведомлением.</p><p><strong>Витрина.</strong> Лицензии открываются из About, честный минимум macOS 13+, единые версии.</p>]]></description>
+      <enclosure
+        url="https://github.com/karpovantonme/potok-releases/releases/download/v1.3.0.0/Potok-1.3.0.0.dmg"
+        length="11942139"
+        type="application/octet-stream"
+        sparkle:edSignature="nmyWHVAd43tN68KrQt8Yl6X/cSpgcw9/3/yeLWDnqMg6CANBcbPI5DwVt+ReqSlKGFmCcHCsqfrAqipytrUDCQ==" />
+    </item>
+
+    <item>
       <title>V1.2.2.0 — audit fix bundle</title>
       <pubDate>Wed, 10 Jun 2026 16:17:48 +0000</pubDate>
       <sparkle:version>1.2.2.0</sparkle:version>
