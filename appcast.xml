@@ -7,6 +7,20 @@
     <language>ru</language>
 
     <item>
+      <title>V1.3.5.0 — языки вглубь</title>
+      <pubDate>Thu, 11 Jun 2026 02:42:07 +0000</pubDate>
+      <sparkle:version>1.3.5.0</sparkle:version>
+      <sparkle:shortVersionString>1.3.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p><strong>Языковой релиз. Универсальная сборка (Apple Silicon + Intel).</strong></p><p><strong>Четыре новых языка интерфейса.</strong> Испанский, немецкий, французский, бразильский португальский — полные локализации (488 строк каждая), вычитанные редакторами-носителями. Язык подтягивается из системы или выбирается вручную в Настройках (пикер теперь выпадающее меню).</p><p><strong>Сленги.</strong> Новая карточка в Настройки → Свой словарь: наборы разговорных слов, филлеров и IT-жаргона на шести языках. Включённые наборы и ваш личный словарь теперь подсказывают распознаванию правильные написания прямо в момент диктовки — раньше словарь влиял только на очистку. Родной язык включён по умолчанию; иногда переходите на английский — включите и его.</p><p><strong>Очистка по языкам.</strong> Для новых языков — свои правила: филлеры (o sea, äh, du coup, né…), национальная пунктуация и кавычки, бережное отношение к английским вкраплениям. Русский и английский пути не изменились.</p><p><strong>Честный онбординг.</strong> Первый экран теперь говорит: «Диктуйте на своём языке — … и ещё десятки».</p><p><strong>Фильтр хвостов-фантомов</strong> знает канонические галлюцинации Whisper для новых языков (Amara.org, ZDF, Radio-Canada).</p>]]></description>
+      <enclosure
+        url="https://github.com/karpovantonme/potok-releases/releases/download/v1.3.5.0/Potok-1.3.5.0.dmg"
+        length="12084686"
+        type="application/octet-stream"
+        sparkle:edSignature="76jzbDTdcvGp1ClwxLynnxIe0GqaE2AKpFw7tdyUyAdztmZJ4Rn4ECJmbXtIJeU1KK8qhZigxabdDM94hwnoDA==" />
+    </item>
+
+    <item>
       <title>V1.3.0.0 — UX-пас и каркас локализации</title>
       <pubDate>Thu, 11 Jun 2026 02:15:51 +0000</pubDate>
       <sparkle:version>1.3.0.0</sparkle:version>
