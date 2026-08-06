@@ -7,6 +7,20 @@
     <language>ru</language>
 
     <item>
+      <title>V2.0.1.0 — история под замком, выбор моделей</title>
+      <pubDate>Thu, 06 Aug 2026 19:22:50 +0000</pubDate>
+      <sparkle:version>2.0.1.0</sparkle:version>
+      <sparkle:shortVersionString>2.0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>История больше не пропадает</h3><ul><li>Прошлые месяцы видны в разделе История — раньше архив на диске был, но приложение его не читало.</li><li>Архивы зашифрованы: стенограммы больше не лежат читаемым текстом. Ключ — в связке ключей macOS, привязан к этому компьютеру.</li><li>Расшифровка по вашему явному действию, для каждого месяца отдельно и только в памяти.</li></ul><h3>Настройки</h3><ul><li>Карточка «Модели»: выбор того, что распознаёт речь и что чистит текст, включая запасную модель.</li><li>Выключатель контекстных подсказок.</li><li>Плашку «Запись экрана — необязательно» можно закрыть.</li></ul><h3>Исправления</h3><ul><li>Запасная модель очистки была снята провайдером — страховка превращала заминку в отказ.</li><li>Модель для контекста отправлялась не тому провайдеру.</li><li>Фильтр фантомных концовок стал шире, живая речь при этом не режется.</li></ul>]]></description>
+      <enclosure
+        url="https://github.com/karpovantonme/potok-releases/releases/download/v2.0.1.0/Potok-2.0.1.0.dmg"
+        length="12194896"
+        type="application/octet-stream"
+        sparkle:edSignature="iZfEEVnhD4AGz65rRExcWmv3C7FCOZ58CzBX+0iY3C/twWOkwanfQCmRqeeQ/Ty/XlU2QrNB2d6Pu+s9yguNBg==" />
+    </item>
+
+    <item>
       <title>V2.0.0.0 — надёжность, рабочие столы, доступность</title>
       <pubDate>Thu, 06 Aug 2026 15:14:48 +0000</pubDate>
       <sparkle:version>2.0.0.0</sparkle:version>
